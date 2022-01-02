@@ -34,7 +34,7 @@ PYTHONPATH="./" python main.py --gpu 1 --dataset cifar100 --imb_type exp --imb_f
 **--cls_lr:** Classifier learning rate  
 **--cls_loss:** Loss types for training the classifier  
 **--temperature:** DRO-LT loss temperature  
-**--b:** Batch Size  
+**-b:** Batch Size  
 **--margin_type:** Type of ball margin (learned = "Learned epsilon").  
 
 Model checkpoints will be saved inside the CE model folder from step (1).
